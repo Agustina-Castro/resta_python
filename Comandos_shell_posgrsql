@@ -1,0 +1,7 @@
+CREATE TABLE reservas(id Serial, nombre text, cantidad text, contacto text);
+
+# Par4a insertar datos nuevos desde consola
+INSERT INTO student(nombre, cantidad, contacto) VALUES
+    ('Agu', '2', '3098')  
+
+select * from reservas;
